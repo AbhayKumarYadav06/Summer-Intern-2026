@@ -35,6 +35,7 @@ while True:
 
     elif(ch==2):
         print("closing the game...")
+        break
 
     else:
         print("Invalid choice. Try again..")
