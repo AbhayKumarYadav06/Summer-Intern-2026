@@ -1,0 +1,17 @@
+import numpy as np
+
+a = np.arange(6).reshape(2,3)
+print(a)
+b= np.arange(6,12).reshape(2,3)
+print(b)
+
+print(a+b)
+print(b-a)
+print(b/a)
+print(b%a)
+
+a = np.array([3.4j,2.56j,6,1+3j])
+print(np.imag(a))
+print(np.real(a))
+print(np.conj(a))
+print(np.angle(a, deg=True))
