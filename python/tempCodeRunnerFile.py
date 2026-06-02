@@ -1,15 +1,8 @@
-a = np.arange(6).reshape(2,3)
-# print(a)
-# b= np.arange(6,12).reshape(2,3)
-# print(b)
-
-# print(a+b)
-# print(b-a)
-# print(b/a)
-# print(b%a)
-
-# a = np.array([3.4j,2.56j,6,1+3j])
-# print(np.imag(a))
-# print(np.real(a))
-# print(np.conj(a))
-# print(np.angle(a, deg=True))
+import greet
+# import mathe
+# greet.greet_func(greet.person1['name'])
+# a = int(input('enter 1st num:'))
+# b = int(input('enter 2nd num:'))
+# print('sum is:',mathe.sum_fun(a,b))
+# print('sub is:',mathe.sub_fun(a,b))
+# print('multi is:',mathe.multi_fun(a,b))
